@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.DespesaFixaEdicaoActivity">
+
+    <EditText
+        android:id="@+id/despesa_fixa_edicao_etNome"
+        android:layout_width="335dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="@string/despesa_fixa_edicao_hint_etNome"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/despesa_fixa_edicao_btnSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/despesa_fixa_edicao_cbAtivo" />
+
+    <CheckBox
+        android:id="@+id/despesa_fixa_edicao_cbAtivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="88dp"
+        android:text="@string/despesa_fixa_edicao_cbAtivo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/despesa_fixa_edicao_etNome"
+        app:layout_constraintTop_toBottomOf="@+id/despesa_fixa_edicao_etNome" />
+</androidx.constraintlayout.widget.ConstraintLayout>

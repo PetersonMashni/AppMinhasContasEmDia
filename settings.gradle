@@ -1,0 +1,2 @@
+rootProject.name='Minhas Contas em Dia'
+include ':app'

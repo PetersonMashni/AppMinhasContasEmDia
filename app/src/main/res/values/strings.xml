@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Minhas Contas em Dia</string>
+    <string name="login_edtEmail_hint">Informe seu e-Mail</string>
+    <string name="login_edtSenha_hint">Informe sua senha</string>
+    <string name="login_btnEntrar_text">Entrar</string>
+    <string name="login_btnCadastrar">Cadastrar-se</string>
+    <string name="login_msg_erro_email_senha_vazios">e-Mail ou Senha estão vazios!</string>
+    <string name="login_msg_erro_login">Erro ao Logar!\n\n[%s]</string>
+    <string name="login_msg_erro_criar_usuario">Erro ao criar o usuário!\n\n[%s]</string>
+    <string name="login_msg_usuario_criado">Usuário criado com sucesso!</string>
+    <string name="menu_inicio">Início</string>
+    <string name="menu_inicio_logout">Logout</string>
+    <string name="menu_inicio_novo">Novo...</string>
+    <string name="menu_inicio_despesa_fixa">Despesas Fixas</string>
+    <string name="despesa_fixa_title">Despesas Fixas</string>
+    <string name="despesa_fixa_edicao_hint_etNome">Nome da Conta Fixa</string>
+    <string name="despesa_fixa_edicao_cbAtivo">Ativo</string>
+    <string name="layout_despesa_fixa_tvNome_hint">Nome</string>
+    <string name="layout_despesa_fixa_tvStatus_hint">Status</string>
+    <string name="layout_despesa_fixa_tvStatus_ativa">Ativa</string>
+    <string name="layout_despesa_fixa_tvStatus_inativa">Inativa</string>
+
+
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "820487511183",
+    "firebase_url": "https://petersonmashni-base-teste.firebaseio.com",
+    "project_id": "petersonmashni-base-teste",
+    "storage_bucket": "petersonmashni-base-teste.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820487511183:android:876f36ab2902ec3ccee4fa",
+        "android_client_info": {
+          "package_name": "br.com.petersonmashni.minhascontasemdia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820487511183-tg8sbpoa4rmb1fjvidu93m5vo4bn8ddo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyeZSBk_UytWH2iYKOasZJYDcXZTN36CE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820487511183-tg8sbpoa4rmb1fjvidu93m5vo4bn8ddo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
